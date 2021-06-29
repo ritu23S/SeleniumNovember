@@ -1,0 +1,22 @@
+package com.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class HomePage {
+	
+	private WebDriver driver;
+	
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void searchProduct(String product) {
+		WebElement searchinput = driver.findElement(By.id("searchInputId"));
+		searchinput.clear();
+		searchinput.sendKeys(product);		
+		driver.findElement(By.cssSelector("[data-automation-id='searchIconBlock']")).click();
+	}
+
+}

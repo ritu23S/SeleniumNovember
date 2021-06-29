@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Test Chrome(failed)">
+    <classes>
+      <class name="com.selenium.tests.SearchProduct">
+        <methods>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="captureScreenShot"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.selenium.tests.SearchProduct -->
+    </classes>
+  </test> <!-- Test Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,12 @@
+com\pages\HomePage.class
+com\pagesobject\ProductDetailsPage.class
+com\utils\BaseTest.class
+com\pages\ProductDetailsPage.class
+com\pagesobject\ShippingPage.class
+com\pages\CartPage.class
+com\pagesobject\HomePage.class
+com\pagesobject\CartPage.class
+com\pages\ShippingPage.class
+com\utils\Configuration.class
+com\pages\SigninPage.class
+com\pagesobject\SigninPage.class
